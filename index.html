@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Kingdom of Bulochka</title>
+    <meta name="description" content="Play the most unique RPG decission-making game! Live your own adventure in the World of Bulochka.">
+    <link rel="icon" type="image/x-icon" href="./images/iconJorge.jpg">
+
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div id="game">
+      <audio id="song">
+        <source src="./audio/Journey of Heroes.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>   
+      <div id="image">
+        <img src="./images/intro.jpg">
+      </div>
+      <div id="monsterStats">
+        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+      </div>
+      <div id="stats">
+        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+      </div>
+      <div id="controls">
+        <button id="button1">Go to store</button>
+        <button id="button2">Go to cave</button>
+        <button id="button3">Fight dragon</button>
+      </div>
+
+      <div id="text">
+        In the heart of Bulochka, a cursed village lies in ruins, its people tormented by the malevolent
+         dragon Gopniphax. With your family and kin suffering under the weight of a sinister curse, you 
+         embark on a perilous quest to destroy the beast and free your loved ones from eternal torment. 
+         The fate of Bulochka rests in your hands, adventurer, as you tread the path of legends and confront
+          the ultimate evil that threatens to consume all.</div>
+
+    </div>
+ 
+    <script src="./script.js"></script>
+  </body>
+</html>

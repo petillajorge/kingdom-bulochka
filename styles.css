@@ -1,0 +1,118 @@
+body {
+    background-color: #0a0a23;
+    font-family: monospace, sans-serif;
+    background-image: url("./images/cave.jpg");
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: center;
+    min-height: 445px;
+  }
+  
+  #text {
+    background-color: #0c0c57;
+    color: #ffffff;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 100%;
+    border: 10px solid #fd9e0f;
+    text-align: justify;
+    box-sizing: border-box;
+
+  }
+  
+  #game {
+    max-width: 78vh;
+    height: 100%;
+    max-height: 100%;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    background-size: 240%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 15px solid #fd9e0f;
+    border-radius: 2px;
+  }
+  
+  #controls,
+  #stats {
+    border: 10px solid #fd9e0f;
+    color: antiquewhite;
+    font-size: 1.3rem;
+    width: 85%;
+    display: flex;
+    background-color: #0c0c57;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+
+  }
+
+  #stats {
+    border-bottom: 0;
+    gap: 10%;
+
+  }
+  
+  #monsterStats {
+    position: absolute;
+    display: none;
+    border: 10px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+    font-size: 1.1rem;
+    width: 50vh;
+    top: 105px;
+    z-index: 1;
+    box-sizing: border-box;
+
+  }
+  
+  .stat {
+    padding: 10px;
+  }
+  
+  #image {
+    margin: 25px;
+    height: auto;
+    width: 100%;
+    object-fit:contain;
+    overflow: hidden;
+    min-width: 250px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #image img {
+    height: auto;
+    width: 70%;
+    border: 10px solid #fd9e0f;
+  }
+
+  button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+    font-family: monospace, sans-serif;
+    font-size: 1rem;
+    width: 30%;
+    margin: 15px;
+  }
